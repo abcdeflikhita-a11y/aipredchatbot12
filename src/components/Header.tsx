@@ -16,10 +16,13 @@ const Header: React.FC = () => {
         </div>
 
         {/* Home Button */}
-        <button className="flex items-center space-x-2 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full transition-all duration-200 hover:shadow-lg hover:scale-105">
+        <a
+          href="https://agri-ai-4farmer.vercel.app/"
+          className="flex items-center space-x-2 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full transition-all duration-200 hover:shadow-lg hover:scale-105"
+        >
           <Home className="h-5 w-5" />
           <span>Home</span>
-        </button>
+        </a>
       </div>
     </header>
   );
